@@ -9,5 +9,8 @@ public class CowinConstants {
       COWIN_URL + "/appointment/sessions/public/findByPin?pincode=%s&date=%s";
   public static final String COWIN_WEB_URL = "https://www.cowin.gov.in/home";
   public static final String COWIN_UI_LOGIN = "https://selfregistration.cowin.gov.in/";
+  public static final String COVISHIELD = "COVISHIELD";
+  public static final String COVAXIN = "COVAXIN";
+  public static final String EMPTY_STRING = "";
 
 }
