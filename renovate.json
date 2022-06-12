@@ -12,7 +12,7 @@
       "matchUpdateTypes": ["major"],
       "groupName": "devDependencies (major)"
     }
-  ]
+  ],
   "extends": [
     "config:base"
   ]
