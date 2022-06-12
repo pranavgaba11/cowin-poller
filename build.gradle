@@ -21,7 +21,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation group: 'org.springframework', name: 'spring-web', version: '5.3.6'
-	implementation group: 'org.json', name: 'json', version: '20210307'
+	implementation group: 'org.json', name: 'json', version: '20220320'
 	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.3'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
