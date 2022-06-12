@@ -2,15 +2,26 @@
   "labels": ["dependencies"],
   "assigneesFromCodeOwners": true,
   "packageRules": [
-    {
-      "matchDepTypes": ["devDependencies"],
-      "matchUpdateTypes": ["patch", "minor"],
-      "groupName": "devDependencies (non-major)"
+  {
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "minor",
+        "patch"
+      ],
+      "groupName": "all non-major dependencies",
+      "groupSlug": "all-minor-patch"
     },
     {
-      "matchDepTypes": ["devDependencies"],
-      "matchUpdateTypes": ["major"],
-      "groupName": "devDependencies (major)"
+      "matchPackagePatterns": [
+        "*"
+      ],
+      "matchUpdateTypes": [
+        "major"
+      ],
+      "groupName": "all major dependencies",
+      "groupSlug": "all-major"
     }
   ],
   "extends": [
