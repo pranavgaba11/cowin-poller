@@ -1,5 +1,5 @@
 plugins {
-	id 'org.springframework.boot' version '2.5.0'
+	id 'org.springframework.boot' version '3.3.5'
 	id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 	id 'java'
 }
@@ -20,15 +20,15 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
-	implementation group: 'org.springframework', name: 'spring-web', version: '5.3.6'
-	implementation group: 'org.json', name: 'json', version: '20210307'
+	implementation group: 'org.springframework', name: 'spring-web', version: '6.1.14'
+	implementation group: 'org.json', name: 'json', version: '20240303'
 	implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.3'
 	compileOnly 'org.projectlombok:lombok'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
-	implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '3.141.59'
-	implementation group: 'org.seleniumhq.selenium', name: 'selenium-api', version: '3.141.59'
-	implementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '3.141.59'
+	implementation group: 'org.seleniumhq.selenium', name: 'selenium-java', version: '4.25.0'
+	implementation group: 'org.seleniumhq.selenium', name: 'selenium-api', version: '4.25.0'
+	implementation group: 'org.seleniumhq.selenium', name: 'selenium-chrome-driver', version: '4.25.0'
 	implementation group: 'org.seleniumhq.selenium.client-drivers', name: 'selenium-java-client-driver', version: '1.0'
 	
 }
